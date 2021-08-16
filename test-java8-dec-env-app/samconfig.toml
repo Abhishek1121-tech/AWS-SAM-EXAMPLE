@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "test-java8-dec-env-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-shqplod6fhr1"
+s3_prefix = "test-java8-dec-env-app"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
